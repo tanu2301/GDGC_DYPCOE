@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-labelledby="title desc">
+<title id="title">Flutter Forward</title><desc id="desc">Dark navy event artwork with Flutter-inspired lettering and a friendly blue mascot.</desc>
+<rect width="600" height="600" fill="#030407"/><circle cx="300" cy="300" r="285" fill="#0c102b"/>
+<g fill="#fff" font-family="Arial,sans-serif" text-anchor="middle"><path d="M264 62h28l-15 15h-28z" /><path d="M282 80h28l-15 15h-28z"/><text x="300" y="119" font-size="15">Google Developer Student Clubs</text><text x="300" y="139" font-size="12">D.Y. Patil College of Engineering - Akurdi</text></g>
+<g transform="translate(42 246)"><path d="M65 0H20L0 25l20 25h45L39 25z" fill="#8ab4f8"/><path d="M22 25 0 49h22l22-24z" fill="#4285f4"/></g>
+<text x="142" y="294" fill="#fff" font-family="Arial,sans-serif" font-size="60" font-weight="400">Flutter</text><text x="142" y="356" fill="#72d5ed" font-family="Arial,sans-serif" font-size="53">Forward</text>
+<g transform="translate(385 290)"><ellipse cx="72" cy="122" rx="74" ry="18" fill="#02030a" opacity=".65"/><path d="M30 60Q5 5 42 0Q75 -5 100 35L118 80 91 108 45 98Z" fill="#27c9ed"/><ellipse cx="74" cy="47" rx="49" ry="44" fill="#36d8f3"/><path d="M33 16Q63 -27 101 8L114 32 67 27Z" fill="#ffd24d"/><ellipse cx="58" cy="45" rx="7" ry="11" fill="#06112b"/><ellipse cx="91" cy="45" rx="7" ry="11" fill="#06112b"/><path d="M63 66Q76 80 90 65" fill="none" stroke="#06112b" stroke-width="5" stroke-linecap="round"/><path d="M31 88 3 112 16 123 49 103M104 87l26 25-13 12-31-21" fill="#20b9e2"/><path d="M47 100l-4 31h18l8-30M88 100l8 31h18l-7-38" fill="#1685c9"/><circle cx="43" cy="4" r="9" fill="#ffcf48"/><path d="M29 5 14 -8 35 -7" fill="#ffcf48"/></g>
+</svg>
