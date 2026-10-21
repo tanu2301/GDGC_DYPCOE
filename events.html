@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Events & Workshops | GDSC DYP Akurdi</title>
+  <link rel="stylesheet" href="style.css"><script src="script.js" defer></script>
+</head>
+<body class="events-page">
+  <header class="site-header" id="home">
+    <a class="brand" href="index.html#home"><span class="google-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span class="brand-copy"><strong>Google Developer Student Clubs</strong><small>D.Y. Patil College of Engineering - Pune</small></span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="main-nav" aria-label="Main navigation"><a href="index.html#home">Home</a><a href="index.html#overview">Overview</a><a href="index.html#projects">Projects</a><a href="index.html#technologies">Technologies</a><a href="#events" class="active">Workshop</a><a href="index.html#team">Team</a><a href="index.html#about">About</a></nav>
+    <button class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode"><span></span></button>
+  </header>
+  <main class="event-page-main" id="events">
+    <div class="confetti confetti-left" aria-hidden="true"></div><div class="confetti confetti-right" aria-hidden="true"></div>
+    <section class="event-page-heading"><h1>Events <span>&amp;</span> Workshops</h1>
+      <div class="stats large-stats"><div><strong>15</strong><span class="red-text">Events</span></div><div><strong>10</strong><span class="green-text">Workshop</span></div><div><strong>100+</strong><span class="yellow-text">Members</span></div></div>
+    </section>
+    <section class="upcoming-section"><h2>Upcoming Events</h2><div class="event-grid event-page-upcoming">
+      <article class="event-card large-card"><img src="assets/flutter-forward.svg" alt="Flutter Forward event artwork"><h3>Flutter Forward</h3><p>10 - 11 January 2023</p><button class="btn register-btn" data-event="Flutter Forward">Register Now</button></article>
+    </div></section>
+    <section class="previous-section"><h2>Previous Events</h2><div class="journey">
+      <svg class="journey-line" viewBox="0 0 900 900" preserveAspectRatio="none" aria-hidden="true"><path d="M 65 75 C 120 10, 245 60, 330 35 S 435 95, 485 95 S 530 145, 580 170 S 650 210, 715 215 S 760 265, 800 300 S 820 400, 850 440 S 820 500, 780 500 S 735 520, 720 560 S 690 590, 670 560 S 620 485, 560 470 S 500 485, 450 515 S 350 520, 280 515 S 220 555, 170 610 S 110 700, 80 750 S 100 810, 150 785 S 260 730, 330 690 S 420 725, 490 730 S 590 700, 660 700" /></svg>
+      <span class="journey-dot dot-green"></span><span class="journey-dot dot-yellow"></span><span class="journey-dot dot-blue"></span><span class="journey-dot dot-green dot-low"></span><span class="journey-dot dot-blue dot-low-right"></span><span class="journey-dot dot-yellow dot-bottom"></span>
+      <span class="tech-bubble flutter-bubble">F</span><span class="tech-bubble cloud-bubble">☁</span><span class="tech-bubble js-bubble">JS</span>
+      <article class="event-card journey-card card-one"><img src="assets/flutter-forward.svg" alt="Flutter Forward event artwork"><h3>Flutter Forward</h3><p>10 - 11 January 2023</p><button class="btn small know-btn" data-event="Flutter Forward">Know More</button></article>
+      <article class="event-card journey-card card-two"><img src="assets/flutter-forward.svg" alt="Flutter Forward event artwork"><h3>Flutter Forward</h3><p>10 - 11 January 2023</p><button class="btn small know-btn" data-event="Flutter Forward">Know More</button></article>
+      <article class="event-card journey-card card-three"><img src="assets/flutter-forward.svg" alt="Flutter Forward event artwork"><h3>Flutter Forward</h3><p>10 - 11 January 2023</p><button class="btn small know-btn" data-event="Flutter Forward">Know More</button></article>
+      <article class="event-card journey-card card-four"><img src="assets/flutter-forward.svg" alt="Flutter Forward event artwork"><h3>Flutter Forward</h3><p>10 - 11 January 2023</p><button class="btn small know-btn" data-event="Flutter Forward">Know More</button></article>
+    </div></section>
+  </main>
+  <footer class="site-footer compact-footer"><div class="footer-brand"><a class="brand" href="index.html#home"><span class="google-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span class="brand-copy"><strong>Google Developer Student Clubs</strong><small>D.Y. Patil College of Engineering - Pune</small></span></a></div><div class="footer-col"><h3>Contribute</h3><a href="index.html#projects">File a Bug</a><a href="index.html#projects">View Source</a></div><div class="footer-col"><h3>Quick Links</h3><a href="index.html#technologies">Women Technologists</a><a href="index.html#team">Google Developer Experts</a><a href="index.html#about">Google Developer Groups</a></div><div class="footer-col"><h3>Important Links</h3><a href="https://developers.google.com/" target="_blank" rel="noreferrer">Firebase Console</a><a href="https://cloud.google.com/" target="_blank" rel="noreferrer">Google Cloud Platform</a><a href="https://developers.google.com/" target="_blank" rel="noreferrer">Actions on Google</a></div><p class="copyright">© 2026 Google Developer Student Clubs · DYP Akurdi</p></footer>
+  <dialog class="event-dialog" id="eventDialog"><button class="dialog-close" aria-label="Close dialog">×</button><img src="assets/flutter-forward.svg" alt="" class="dialog-image"><h2 id="dialogTitle">Flutter Forward</h2><p id="dialogDescription">Explore the latest in Flutter, connect with fellow developers, and learn through community sessions.</p><p class="dialog-date">10 - 11 January 2023</p><form id="registrationForm"><label for="visitorName">Your name</label><input id="visitorName" name="name" required placeholder="Enter your name"><label for="visitorEmail">Email address</label><input id="visitorEmail" name="email" type="email" required placeholder="you@example.com"><button class="btn" type="submit" id="dialogAction">Submit registration</button><p class="form-note" id="formNote">Demo form: details stay in this browser and are not sent to a server.</p></form></dialog><div class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
